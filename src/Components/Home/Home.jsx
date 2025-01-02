@@ -9,7 +9,7 @@ export default function Home() {
   
   <>
 
-    <div className="bg-[url(public/hero-bg.png)] flex h-screen text-black">
+    <div className="bg-[url(./hero-bg.png)] flex h-screen text-black">
     
     <div className="w-[50%] mt-[15%]">
 
