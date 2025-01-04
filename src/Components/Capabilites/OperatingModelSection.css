@@ -1,0 +1,119 @@
+.gradient-bg {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* General SVG animations */
+.animated-icon {
+  transition: transform 0.3s ease;
+  animation: pulse 2s infinite;
+}
+
+.animated-icon:hover {
+  animation: rotate 1.5s linear infinite, bounce 1s ease infinite;
+  transform: scale(1.2);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+/* Add responsive styles without changing the existing ones */
+
+/* Ensure the section and content adjust for smaller screens */
+@media (max-width: 768px) {
+  .gradient-bg {
+    height: auto;
+  }
+
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem; /* Adjust font size for smaller screens */
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* Make columns single on smaller screens */
+  }
+
+  .flex-col {
+    align-items: flex-start; /* Align items to the left for readability */
+    text-align: left;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem; /* Adjust heading size for smaller screens */
+  }
+
+  .hidden.sm\\:block {
+    display: block; /* Ensure description is visible on smaller screens */
+  }
+
+  .p-4 {
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Extra small screens adjustments */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.5rem; /* Further reduce heading size */
+  }
+
+  .text-2xl {
+    font-size: 1.25rem; /* Adjust heading size */
+  }
+
+  .sm\\:p-6 {
+    padding: 0.75rem; /* Adjust icon padding */
+  }
+
+  .w-6 {
+    width: 1.5rem; /* Resize icons for small screens */
+  }
+
+  .h-6 {
+    height: 1.5rem; /* Resize icons for small screens */
+  }
+}

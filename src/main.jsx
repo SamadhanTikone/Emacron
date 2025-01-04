@@ -8,7 +8,6 @@ import About from './Components/About/About.jsx'
 import Layout from './Components/Layout/Layout.jsx'
 import Contact from './Components/Contact/Contact.jsx'
 import Services from './Components/Services/Services.jsx'
-import Purpose from './Components/Purpose/purpose.jsx'
 import Projects from './Components/Projects/Projects.jsx'
 
 
@@ -34,12 +33,9 @@ const router = createBrowserRouter([
         path: "services",
         element: <Services />,
       },
+     
       {
-        path: "purpose",
-        element: <Purpose />,
-      },
-      {
-        path: "projects",
+        path: "clients",
         element: <Projects />,
       },
      

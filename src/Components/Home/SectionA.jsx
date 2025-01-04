@@ -8,15 +8,15 @@ export default function SectionA() {
 
     useGSAP(()=>{
         gsap.from(".box",{
-            x:100,
+            y:100,
             opacity:0,
             stagger:0.2,
             scrollTrigger :{
                 trigger: ".box", // Element that triggers the animation
                 start: "center 70%", // Start when the element is 80% in the viewport
-                end: "center top", // End when the element is 30% in the viewport
+                end: "bottom center", // End when the element is 30% in the viewport
                 scrub: 3, // Scrub the animation with scroll
-                markers: true,
+                // markers: true,
             }
             
         })

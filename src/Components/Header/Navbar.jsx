@@ -42,21 +42,23 @@ export default function Navbar() {
       <NavLink to={"/"}   className={({ isActive }) =>
           isActive ? " text-[#ff921d]" : "text-black"
         }>Home</NavLink>
+        <NavLink to={"/services"}   className={({ isActive }) =>
+          isActive ? "text-[#ff921d]" : "text-black"
+        }>Services</NavLink>
+         <NavLink to={"/clients"}   className={({ isActive }) =>
+          isActive ? "text-[#ff921d]" : "text-black"
+        }>Clients</NavLink>
       <NavLink to={"/about"}   className={  ( { isActive }) =>
           isActive ? "text-[#ff921d]" : "text-black"
         }>About</NavLink>
       <NavLink to={"/contact"}   className={({ isActive }) =>
           isActive ? "text-[#ff921d]" : "text-black"
         }>Contact</NavLink>
-      <NavLink to={"/services"}   className={({ isActive }) =>
+      
+      {/* <NavLink to={"/purpose"}   className={({ isActive }) =>
           isActive ? "text-[#ff921d]" : "text-black"
-        }>Services</NavLink>
-      <NavLink to={"/purpose"}   className={({ isActive }) =>
-          isActive ? "text-[#ff921d]" : "text-black"
-        }>Purpose</NavLink>
-      <NavLink to={"/projects"}   className={({ isActive }) =>
-          isActive ? "text-[#ff921d]" : "text-black"
-        }>Projects</NavLink>
+        }>Purpose</NavLink> */}
+     
     </div>
 
     <div>

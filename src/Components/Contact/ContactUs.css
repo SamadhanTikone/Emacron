@@ -1,0 +1,114 @@
+/* Full-screen container with gradient background */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #05b3a4 0%, #08786f 100%);
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+/* Form container with rounded corners, shadow, and width control */
+.contact-form-container {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px;
+  width: 70vw;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  color: #717171;
+}
+
+/* Form title with better typography */
+.contact-form-container h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffdede;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Row for first and last name fields */
+.form-group-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Input fields styling */
+.form-group input,
+.form-group-row input,
+.form-group textarea {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.form-group-row input {
+  flex: 1;
+}
+
+/* Fix spacing between fields */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Smooth focus effects */
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 165, 0, 0.5);
+}
+
+/* Form textarea for message input */
+.form-group textarea {
+  resize: none;
+}
+
+/* Submit button styling */
+.submit-btn {
+  background-color: #ff7854;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Submit button hover effects */
+.submit-btn:hover {
+  background-color: #ff5a36;
+  transform: translateY(-2px);
+}
+
+.submit-btn:active {
+  transform: translateY(1px);
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .contact-form-container {
+    width: 90vw;
+    padding: 30px;
+  }
+
+  .form-group-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

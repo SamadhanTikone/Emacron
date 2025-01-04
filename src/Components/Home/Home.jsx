@@ -2,7 +2,9 @@ import styles from "./home.module.css"
 import Button from '@mui/material/Button';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import SectionA from "./SectionA";
-
+import Capability from "../Capabilites/Capability";
+import OperatingModelSection from "../Capabilites/OperatingModelSection";
+import ContactUs from "../Contact/ContactUs";
 export default function Home() {
 
 
@@ -36,6 +38,13 @@ export default function Home() {
      </div>
     
     <SectionA/>
+
+    <Capability/>
+
+    <OperatingModelSection/>
+
+    <ContactUs/>
+    
      
   </>
   )

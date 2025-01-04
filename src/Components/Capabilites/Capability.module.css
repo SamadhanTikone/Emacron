@@ -1,0 +1,8 @@
+.box {
+    transition: transform 0.3s ease-in-out; /* Smooth 0.3s transition */
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    cursor: pointer; /* Moves 10px down on hover */
+}
