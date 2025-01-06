@@ -3,6 +3,10 @@
     animation: animate 1s ease-in-out 1s infinite;
 }
 
+.bg{
+    background: url(./hero-bg.png);
+}
+
 @keyframes animate {
     0% { transform: translateY(0%); }
     50% { transform: translateY(2%); }

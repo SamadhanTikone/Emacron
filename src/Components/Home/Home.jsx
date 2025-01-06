@@ -12,7 +12,7 @@ export default function Home() {
   
   <>
 
-    <div className="bg-[url(./hero-bg.png)] flex h-screen text-black">
+    <div className={`${styles.bg} flex h-screen text-black`} >
     
     <div className="w-[50%] mt-[15%]">
 
@@ -31,7 +31,7 @@ export default function Home() {
 
         <img 
               className={`h-full mt-14 ${styles.mainImage}`}
-              src="public/Website Creator-rafiki.svg" 
+              src="./Website Creator-rafiki.svg" 
               alt="Website Creator-rafiki" />
 
     </div>
