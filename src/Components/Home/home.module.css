@@ -4,7 +4,7 @@
 }
 
 .bg{
-    background: url(./hero-bg.png);
+    background: url("./hero-bg.png");
 }
 
 @keyframes animate {
