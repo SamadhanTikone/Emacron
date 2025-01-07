@@ -22,12 +22,14 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div className="contact-container ">
       <div className="contact-form-container">
         <h2>
-          Contact us now <br /> and step into the future
+       Connect with Us
         </h2>
-        <form onSubmit={handleSubmit}>
+        <p className="text-xl font-semibold my-8 -mt-4 text-white"> Reach out today
+        and unlock your future possibilities!</p>
+        <form onSubmit={handleSubmit} >
           <div className="form-group-row">
             <input
               type="text"

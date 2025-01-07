@@ -8,22 +8,22 @@ const Capability = () => {
 
    
   return (
-    <section className="py-12 pt-12 text-white container w-full h-full flex flex-col items-center justify-center bg-gray-500">
+    <section className="py-12 pt-12 text-white container w-full h-full flex flex-col items-center justify-center bg-gray-400">
       <div className="wave"></div>
       <div className="wave"></div>
       <div className="wave"></div>
-      <div className="container mx-auto px-4 lg:px-20 flex flex-col justify-center ">
+      <div className="container mx-auto px-4 lg:px-20 flex flex-col items-center mb-12 justify-center ">
         {/* Main Heading */}
-        <h1 className="text-2xl sm:text-3xl lg:text-5xl font-extrabold text-center mb-4">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl  text-black text-center  md:ml-0 font-bold uppercase mb-4">
           Our Core Capabilities
         </h1>
 
         {/* Subheading with lighter text */}
-        <h2 className="hidden sm:block text-xl lg:text-2xl font-light text-center mb-8">
+        <h2 className="block text-black text-xl lg:text-2xl font-light text-center mb-8">
           Driving your business forward through innovation and technology.
         </h2>
 
-        <div className="grid grid-cols-2 gap-6  text-left sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 overscroll-none ">
+        <div className="grid grid-cols-1 gap-6 text-left sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 overscroll-none ">
      
      
      <CapabilityItem

@@ -10,7 +10,7 @@ const CapabilityItem = ({src, title, description}) => {
    
     
     return (
-        <div className={`text-center p-2 box1 bg-white ${styles.box} text-black shadow-xl rounded-xl`}>
+        <div className={`text-center p-8  box1 bg-white ${styles.box} text-black shadow-4xl rounded-xl`}>
             {/* Lottie Animation */}
             <Lottie  
                 loop

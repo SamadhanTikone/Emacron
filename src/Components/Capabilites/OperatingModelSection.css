@@ -1,5 +1,5 @@
 .gradient-bg {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  /* background: linear-gradient(-45deg, #242424, #27374D, #404258, #27374D); */
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -19,6 +19,8 @@
 .animated-icon {
   transition: transform 0.3s ease;
   animation: pulse 2s infinite;
+  display: block;
+  margin: 0 auto;
 }
 
 .animated-icon:hover {
@@ -78,7 +80,7 @@
   }
 
   .flex-col {
-    align-items: flex-start; /* Align items to the left for readability */
+    align-items: flex-center; /* Align items to the left for readability */
     text-align: left;
   }
 
@@ -115,5 +117,24 @@
 
   .h-6 {
     height: 1.5rem; /* Resize icons for small screens */
+  }
+}
+
+.card{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-delay: 0.5s;
+  animation-range: entry 0% cover 30%;
+}
+
+
+@keyframes appear{
+  from{
+      opacity: 0;
+      transform: translateX(100px);
+  }
+  to{
+      opacity: 1;
+      transform: translateX(0px);
   }
 }

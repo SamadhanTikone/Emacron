@@ -5,14 +5,14 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(135deg, #05b3a4 0%, #08786f 100%);
+  background: linear-gradient(135deg, #242424 0%, #0000 100%);
   padding: 40px;
   box-sizing: border-box;
 }
 
 /* Form container with rounded corners, shadow, and width control */
 .contact-form-container {
-  background: rgba(255, 255, 255, 0.2);
+  background: #151515;
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 40px;
@@ -68,8 +68,14 @@
 input:focus,
 textarea:focus {
   outline: none;
-  box-shadow: 0 0 8px rgba(255, 165, 0, 0.5);
+  box-shadow: 0 0 8px rgb(241, 84, 18,0.9);
 }
+
+form textarea::placeholder,input::placeholder{
+  color: black;
+}
+
+
 
 /* Form textarea for message input */
 .form-group textarea {
@@ -92,7 +98,7 @@ textarea:focus {
 
 /* Submit button hover effects */
 .submit-btn:hover {
-  background-color: #ff5a36;
+  background-color: #363062;
   transform: translateY(-2px);
 }
 

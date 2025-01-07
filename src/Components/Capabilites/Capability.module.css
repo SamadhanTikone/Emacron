@@ -1,6 +1,23 @@
 .box {
     transition: transform 0.3s ease-in-out; /* Smooth 0.3s transition */
+    animation: appear linear;
+    animation-timeline: view();
+    animation-delay: 0.5s;
+    animation-range: entry 0% cover 30%;
 }
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
 
 .box:hover {
     transform: translateY(-10px);

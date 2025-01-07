@@ -46,12 +46,12 @@ const OperatingModelSection = () => {
   ];
 
   return (
-    <section className="py-16 h-screen text-white gradient-bg ">
+    <section className="py-16 h-screen text-white gradient-bg bg-gray-600">
       <div className="container mx-auto px-4 ">
         <h2 className="text-4xl font-extrabold text-center mb-12">
           Our Digital Operating Model
         </h2>
-        <div className="grid grid-cols-2 gap-12  text-base sm:text-lg md:grid-cols-3">
+        <div className="grid grid-cols-2 gap-12 place-self-center text-center sm:text-lg md:grid-cols-3">
           {features.map((feature, index) => (
             <FeatureCard
               key={index}
@@ -69,7 +69,7 @@ const OperatingModelSection = () => {
 // eslint-disable-next-line react/prop-types
 const FeatureCard = ({ title, description, icon }) => {
   return (
-    <div className="flex flex-col items-center  p-2">
+    <div className="flex flex-col items-center card p-2">
       <div className="bg-white text-blue-600 p-4 sm:p-6 rounded-full mb-4">
         <img
           src={icon}
@@ -80,7 +80,7 @@ const FeatureCard = ({ title, description, icon }) => {
 
       <h3 className="text-xl sm:text-2xl font-semibold mb-2">{title}</h3>
 
-      <p className="hidden sm:block text-center w-[80%]">{description}</p>
+      <p className=" block text-center w-[60%] md:w-[80%]">{description}</p>
     </div>
   );
 };

@@ -24,29 +24,29 @@ export default function SectionA() {
   return (
    <>
    
-   <div className="bg-gray-400 h-screen">
+   <div className="bg-gray-400 h-full">
 
     <div>
-        <h2 className=" box text-4xl font-bold underline uppercase text-center text-black py-12 mb-8">Our <span className=" text-[#363062]">Achievements</span></h2>
+        <h2 className=" box md:text-4xl text-2xl font-bold underline uppercase text-center text-black py-12 mb-8">Our <span className=" text-[#363062]">Achievements</span></h2>
 
 <div className="grid md:grid-cols-4 gap-12 w-full px-12 ">
 
 
 <div className="flex justify-center items-center box bg-white  h-40 rounded-xl shadow-lg shadow-[#363062]">
     <img src="./project-manager.png" alt="" className="w-24 shadow-xl" />
-    <p className="flex flex-col ml-2 text-lg text-black font-semibold"><span className="text-5xl font-bold text-[#363062]">90+</span>Happy Clients</p>
+    <p className="flex flex-col ml-2 text-lg text-black font-semibold"><span className="md:text-5xl text-3xl font-bold text-[#363062]">90+</span>Happy Clients</p>
 </div>
 <div className="flex justify-center items-center box bg-white  h-40 rounded-xl shadow-lg shadow-[#363062]">
     <img src="./project.png" alt="" className="w-24 " />
-    <p className="flex flex-col ml-2 text-lg  text-black font-semibold"><span className="text-5xl font-bold text-[#363062]">50+</span>Projects</p>
+    <p className="flex flex-col ml-2 text-lg  text-black font-semibold"><span className="md:text-5xl text-3xl font-bold text-[#363062]">50+</span>Projects</p>
 </div>
 <div className="flex justify-center items-center box bg-white  h-40 rounded-xl shadow-lg shadow-[#363062]">
     <img src="./rating.png" alt="" className="w-24 drop-shadow-sm " />
-    <p className="flex flex-col ml-2 text-lg text-black font-semibold"><span className="text-5xl font-bold text-[#363062]">22+</span>Rating</p>
+    <p className="flex flex-col ml-2 text-lg text-black font-semibold"><span className="md:text-5xl text-3xl font-bold text-[#363062]">22+</span>Rating</p>
 </div>
 <div className="flex justify-center items-center box bg-white  h-40 rounded-xl shadow-lg shadow-[#363062] ">
     <img src="./team.png" alt="" className="w-24 shadow-gray-800" />
-    <p className="flex flex-col ml-2 text-lg text-black font-semibold"><span className="text-5xl font-bold text-[#363062]">10+</span>Team Members</p>
+    <p className="flex flex-col ml-2 text-lg text-black font-semibold"><span className="md:text-5xl text-3xl font-bold text-[#363062]">10+</span>Team Members</p>
 </div>
 
 
@@ -58,9 +58,9 @@ export default function SectionA() {
 <div>
 
 <div>
-<h2 className="box text-4xl font-bold underline uppercase text-center text-black py-12 mt-8">Our <span className=" text-[#363062]">Mission</span></h2>
+<h2 className="box md:text-4xl font-bold underline uppercase text-center text-black py-12 mt-8">Our <span className=" text-[#363062]">Mission</span></h2>
 
-    <p className="text-4xl box bg-white py-8 text-center font-bold text-black"><span className="font-bold quote text-6xl font-mono text-orange-500 ">&quot;</span>   Transforming Indian Dreams into Digital Reality: <span className="font-bold text-[#363062] ">Your Vision, Our Mission</span> <span className="font-bold text-6xl font-mono text-orange-500 ">&quot;</span> </p>
+    <p className="md:text-4xl box md:w-full p-24 bg-white py-8 text-center font-bold text-black"><span className="font-bold quote text-6xl font-mono text-orange-500 ">&quot;</span>   Transforming Indian Dreams into Digital Reality: <span className="font-bold text-[#363062] ">Your Vision, Our Mission</span> <span className="font-bold text-6xl font-mono text-orange-500 ">&quot;</span> </p>
 </div>
 
 
