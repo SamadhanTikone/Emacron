@@ -23,7 +23,7 @@ const Capability = () => {
           Driving your business forward through innovation and technology.
         </h2>
 
-        <div className="grid grid-cols-1 gap-6 text-left sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 overscroll-none ">
+        <div className="grid w-full grid-cols-1 gap-6 text-left sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 overscroll-none ">
      
      
      <CapabilityItem
