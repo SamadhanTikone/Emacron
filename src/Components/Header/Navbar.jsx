@@ -54,9 +54,7 @@ export default function Navbar() {
       <NavLink to={"/about"}   className={  ( { isActive }) =>
           isActive ? "text-[#5D12D2]" : "text-black"
         }>About</NavLink>
-      <NavLink to={"/contact"}   className={({ isActive }) =>
-          isActive ? "text-[#5D12D2]" : "text-black"
-        }>Contact</NavLink>
+      
       
       {/* <NavLink to={"/purpose"}   className={({ isActive }) =>
           isActive ? "text-[#ff921d]" : "text-black"

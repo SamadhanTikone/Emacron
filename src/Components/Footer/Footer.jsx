@@ -13,11 +13,11 @@ const year = date.getFullYear();
     <div className="">
       
       <footer className="footer">
-      <div className="wave-container">
+      {/* <div className="wave-container">
         <div className="wave" id="wave1"></div>
         <div className="wave" id="wave2"></div>
         <div className="wave" id="wave3"></div>
-      </div>
+      </div> */}
 
       <div className="footer-content">
         <div className="footer-column">

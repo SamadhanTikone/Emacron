@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
+
 import ListItemIcon from '@mui/material/ListItemIcon';
 
 import MenuIcon from '@mui/icons-material/Menu';
@@ -97,13 +97,19 @@ export default function TemporaryDrawer() {
 
 <List sx={{marginTop:10}}>
         {['Home', 'Services', 'Clients', 'About','Contact'].map((text, index) => (
-          <ListItem key={index} disablePadding sx={{marginBottom:2}}>
-            <ListItemButton>
-              <ListItemIcon>
+
+          
+          <ListItem key={index} disablePadding sx={{marginBottom:2, display:'flex'}}>
+          
+            <Link to={text === "Home" ? "/" : `/${text.toLowerCase()}`}> 
+
+              <ListItemIcon sx={{marginBottom:3, fontSize:30, marginLeft:4}}>
                 {getIcon(index)}
+                <p className='text-lg uppercase text-black font-semibold mx-3'>{text} </p>
               </ListItemIcon>
-              <Link to={text === "Home" ? "/" : `/${text}`}> <p className='text-lg uppercase text-black font-semibold'> {text} </p> </Link>
-            </ListItemButton>
+               
+            </Link>
+          
           </ListItem>
         ))}
       </List>
