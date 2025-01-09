@@ -12,7 +12,7 @@ export default function Home() {
   
   <>
 
-    <div className={`${styles.bg} flex pl-4 md:pl-0 md:flex-row flex-col h-full text-black`} >
+    <div className={`${styles.bg} flex pl-4 md:pl-0 md:flex-row w-full flex-col h-full text-black`} >
     
     <div className="md:w-[80%] w-[80%] mt-[15%]">
 

@@ -1,18 +1,38 @@
 // import React from "react";
 import CapabilityItem from "./CapabilityItem";
+import { useGSAP } from "@gsap/react"
+import gsap from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 
 // import "./CapabilitySection.css"; // Import the CSS for the background and waves
 
 const Capability = () => {
 
+
+  useGSAP(()=>{
+    gsap.from(".item",{
+        y:100,
+        opacity:0,
+        stagger:0.2,
+        scrollTrigger :{
+            trigger: ".item", // Element that triggers the animation
+            start: "center bottom", // Start when the element is 80% in the viewport
+            end: "bottom 40%", // End when the element is 30% in the viewport
+            scrub: 1, // Scrub the animation with scroll
+            // markers: true,
+        }
+        
+    })
+})
    
   return (
-    <section className="py-12 pt-12 text-white container w-full h-full flex flex-col items-center justify-center bg-gray-400">
+    <section className="py-12 pt-12    w-full h-full flex flex-col items-center justify-center bg-gray-400">
+      {/* <div className="wave"></div>
       <div className="wave"></div>
-      <div className="wave"></div>
-      <div className="wave"></div>
-      <div className="container mx-auto px-4 lg:px-20 flex flex-col items-center mb-12 justify-center ">
+      <div className="wave"></div> */}
+      <div className="  px-4 lg:px-20 flex flex-col items-center mb-12 justify-center ">
         {/* Main Heading */}
         <h1 className="text-2xl sm:text-3xl lg:text-4xl  text-black text-center  md:ml-0 font-bold uppercase mb-4">
           Our Core Capabilities
@@ -23,7 +43,7 @@ const Capability = () => {
           Driving your business forward through innovation and technology.
         </h2>
 
-        <div className="grid w-full grid-cols-1 gap-6 text-left sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 overscroll-none ">
+        <div className="grid w-full grid-cols-1 gap-6 text-left  md:grid-cols-2 lg:grid-cols-3 overscroll-contain ">
      
      
      <CapabilityItem

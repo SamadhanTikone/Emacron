@@ -29,10 +29,10 @@ export default function SectionA() {
     <div>
         <h2 className=" box md:text-4xl text-2xl font-bold underline uppercase text-center text-black py-12 mb-8">Our <span className=" text-[#363062]">Achievements</span></h2>
 
-<div className="grid md:grid-cols-4 gap-12 w-full px-12 ">
+<div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2  gap-12 w-full px-12 ">
 
 
-<div className="flex justify-center items-center box bg-white  h-40 rounded-xl shadow-lg shadow-[#363062]">
+<div className="flex justify-center  items-center box bg-white  h-40 rounded-xl shadow-lg shadow-[#363062]">
     <img src="./project-manager.png" alt="" className="w-24 shadow-xl" />
     <p className="flex flex-col ml-2 text-lg text-black font-semibold"><span className="md:text-5xl text-3xl font-bold text-[#363062]">90+</span>Happy Clients</p>
 </div>

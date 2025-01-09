@@ -1,6 +1,6 @@
-.gradient-bg {
+/* .gradient-bg { */
   /* background: linear-gradient(-45deg, #242424, #27374D, #404258, #27374D); */
-  background-size: 400% 400%;
+  /* background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
 
@@ -14,7 +14,7 @@
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 /* General SVG animations */
 .animated-icon {
   transition: transform 0.3s ease;
@@ -67,8 +67,8 @@
   }
 
   .container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 2px px;
+    
   }
 
   h2 {
@@ -76,7 +76,8 @@
   }
 
   .grid {
-    grid-template-columns: 1fr; /* Make columns single on smaller screens */
+    /* Make columns single on smaller screens */
+    grid-template-columns: 1fr; 
   }
 
   .flex-col {

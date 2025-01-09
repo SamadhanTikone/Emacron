@@ -7,7 +7,9 @@
     font-style: normal;
 }
 
-
+.main{
+    background: url("./hero-bg.png");
+}
 
 .card{
     /* background-color: gray ; */

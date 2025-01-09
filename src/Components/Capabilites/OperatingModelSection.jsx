@@ -46,12 +46,12 @@ const OperatingModelSection = () => {
   ];
 
   return (
-    <section className="py-16 h-screen text-white gradient-bg bg-gray-600">
+    <section className="py-16   h-full text-white block gradient-bg bg-gray-600">
       <div className="container mx-auto px-4 ">
         <h2 className="text-4xl font-extrabold text-center mb-12">
           Our Digital Operating Model
         </h2>
-        <div className="grid grid-cols-2 gap-12 place-self-center text-center sm:text-lg md:grid-cols-3">
+        <div className="grid grid-cols-2 md:gap-12 place-self-center text-center sm:text-lg md:grid-cols-3">
           {features.map((feature, index) => (
             <FeatureCard
               key={index}
