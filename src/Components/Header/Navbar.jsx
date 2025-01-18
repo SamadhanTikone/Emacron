@@ -35,7 +35,7 @@ export default function Navbar() {
  
     <div>
 
-        <h1 className='text-3xl font-bold  uppercase '>  <Link to={"/"}>Emacron</Link> </h1>
+          <Link to={"/"}> <img src="./icons/Untitled_design__1_-removebg-preview.png" alt="EMACRON" className='w-60 shadow-lg' /> </Link> 
 
     </div>
 
