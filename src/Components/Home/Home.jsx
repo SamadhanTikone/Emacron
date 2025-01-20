@@ -16,7 +16,7 @@ export default function Home() {
     
     <div className="md:w-[80%] w-[80%] mt-[15%]">
 
-      <h1 className={`md:text-6xl text-5xl  w-full md:mx-12 md:mt-1 my-16 ${styles.heading} text-right uppercase md:pl-4 font-bold`}> Turning Your <span className="text-[#363062]">Vision</span> into <span className="text-[#363062]">Reality</span>.</h1>
+      <h1 className={`md:text-6xl text-5xl  w-full md:mx-12 md:mt-1 my-16 ${styles.heading} text-right uppercase md:pl-4 font-bold`}> Turning Your <span className="text-blue-700">Vision</span> into <span className="text-blue-700">Reality</span>.</h1>
 
       <p className="text-left mt-6 text-[18px] px-4 md:px-16">We specialize in turning your ideas into successful, real-world solutions. Our team collaborates closely with you to understand your vision and bring it to life with cutting-edge technology and expertise. Share your project idea with us, and let’s make it a reality together!</p>
 

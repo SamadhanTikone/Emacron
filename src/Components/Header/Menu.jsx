@@ -101,11 +101,11 @@ export default function TemporaryDrawer() {
           
           <ListItem key={index} disablePadding sx={{marginBottom:2, display:'flex'}}>
           
-            <Link to={text === "Home" ? "/" : `/${text.toLowerCase()}`}> 
+            <Link to={text === "Home" ? "/" : `/${text.toLowerCase()}`} > 
 
               <ListItemIcon sx={{marginBottom:3, fontSize:30, marginLeft:4}}>
                 {getIcon(index)}
-                <p className='text-lg uppercase text-black font-semibold mx-3'>{text} </p>
+                <p className='md:text-lg text-[16px] uppercase text-black font-semibold mx-3'>{text} </p>
               </ListItemIcon>
                
             </Link>

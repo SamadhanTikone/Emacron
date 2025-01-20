@@ -15,7 +15,7 @@ export default function Contact() {
 
 <div className="flex flex-col justify-center items-center px-4 md:-mt-[5%] mt-24 gap-8">
 
-<h1 className={` text-black md:text-6xl text-5xl  ${styles.heading} `}>We are <span className="text-[#363062]"> always </span> open to talk</h1>
+<h1 className={` text-black md:text-6xl text-4xl md:px-0 text-center px-4 ${styles.heading} `}>We are <span className="text-[#363062]"> always </span> open to talk</h1>
 <p className='md:text-lg text-md text-center md:px-1 px-4'>We are here to connect and collaborate anytime you need.</p>
 
 
@@ -44,7 +44,7 @@ export default function Contact() {
 
 <div className="relative flex justify-center items-center">
 <img src="./icons/telephone (1).png" alt="" className=" md:w-12 w-6  absolute" />
-<div className="bg-gray-300  rounded-[50%]   w-24 h-24"></div></div> 
+<div className="bg-gray-300  rounded-[50%]   md:w-24 w-16 h-16 md:h-24"></div></div> 
 <p className="text-lg font-semibold text-black">Contact</p>
 <p className=" my-4">Mon-Fri from 9am to 9pm</p>
 <a href="tel:+917843030189">

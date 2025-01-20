@@ -35,7 +35,7 @@ export default function Navbar() {
  
     <div>
 
-          <Link to={"/"}> <img src="./icons/Untitled_design__1_-removebg-preview.png" alt="EMACRON" className='w-60 shadow-lg' /> </Link> 
+          <Link to={"/"}> <h1 className='uppercase text-3xl font-bold'>E<span className='text-blue-700'>M</span>ACRON</h1> </Link> 
 
     </div>
 
@@ -43,7 +43,7 @@ export default function Navbar() {
 
     <div className=' justify-evenly w-[50%] font-semibold uppercase md:flex hidden'>
       <NavLink to={"/"}   className={({ isActive }) =>
-          isActive ? " text-[#5D12D2]" : "text-black"
+          isActive ? " text-blue-700" : "text-black"
         }>Home</NavLink>
         <NavLink to={"/services"}   className={({ isActive }) =>
           isActive ? "text-[#5D12D2]" : "text-black"
