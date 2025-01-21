@@ -31,7 +31,7 @@ export default function Navbar() {
 <div className='relative '>
 
 <div 
-      className={`flex fixed w-full justify-around z-10 text-black ${navBg ? "bg-white" : "bg-transparent" } p-6 items-center`}>
+      className={`flex fixed px-32 w-full justify-around z-10 text-black ${navBg ? "bg-white" : "bg-transparent" } p-6 items-center`}>
  
     <div>
 

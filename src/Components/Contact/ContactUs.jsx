@@ -24,7 +24,7 @@ const ContactUs = () => {
   return (
     <div id="contact">
     <div className="contact-container " >
-      <div className="contact-form-container">
+      <div className="contact-form-container bg-gray-300">
         <h2 className="text-black">
        Connect with <span className="text-blue-700"> Us</span>
         </h2>

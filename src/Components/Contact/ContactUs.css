@@ -5,14 +5,14 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  background: linear-gradient(135deg, #969696 0%, #43404000 100%);
+  /* background: linear-gradient(135deg, #969696 0%, #43404000 100%); */
   padding: 40px;
   box-sizing: border-box;
 }
 
 /* Form container with rounded corners, shadow, and width control */
 .contact-form-container {
-  background: #f3f2f2;
+  /* background: #f3f2f2; */
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 40px;
