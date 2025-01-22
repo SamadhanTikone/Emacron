@@ -8,7 +8,7 @@ import About from './Components/About/About.jsx'
 import Layout from './Components/Layout/Layout.jsx'
 import Contact from './Components/Contact/Contact.jsx'
 import Services from './Components/Services/Services.jsx'
-import Projects from './Components/Projects/Projects.jsx'
+import Clients from './Components/Clients/Clients.jsx'
 
 
 const router = createBrowserRouter([
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
      
       {
         path: "clients",
-        element: <Projects />,
+        element: <Clients />,
       },
      
 
