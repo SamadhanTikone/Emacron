@@ -7,16 +7,17 @@ import ContactUs from "./ContactUs"
 export default function Contact() {
   return (
     <>
-    <div className={`  ${styles.main} h-full text-black pt-[15%] `}>
+    <div className={`  ${styles.main} h-full text-black md:pt-48 pt-28 bg-white`}>
       
 
-<div >
+<div>
 
 
-<div className="flex flex-col justify-center items-center px-4 md:-mt-[5%] mt-24 gap-8">
+<div className="flex flex-col justify-center items-center px-4  ">
 
+<p className="text-blue-500 lowercase w-[50%] text-xl text-center m-auto ">Connect with us</p>
 <h1 className={` text-black md:text-6xl text-4xl md:px-0 text-center px-4 ${styles.heading} `}>We are <span className="text-[#363062]"> always </span> open to talk</h1>
-<p className='md:text-lg text-md text-center md:px-1 px-4'>We are here to connect and collaborate anytime you need.</p>
+<p className='md:text-lg text-md text-center md:px-1 my-6 px-4'>We are here to connect and collaborate anytime you need.</p>
 
 
 <Button variant="outlined" sx={{borderColor:"#363062", color:"#363062", margin:"10px 2px"}} > <a href="#contact"> contact </a> </Button>
@@ -58,7 +59,12 @@ Phone : <span className="mt-4 text-blue-500 underline">+91 78430 30189</span> </
 
 </div>
 
+<div className="mt-12 text-center ">
+<p className={`text-blue-500 ${styles.ourCompany}`} >contact </p>
+<h3 className="md:text-6xl text-4xl font-semibold">Connect with us</h3>
+  <p className="text-xl font-semibold mt-2">Contact us today to begin your journey!</p>
 <ContactUs/>
+</div>
     </div>
     </>
   )

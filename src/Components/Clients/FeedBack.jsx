@@ -5,7 +5,7 @@ export default function FeedBack({ src, name, description }) {
     return (
         <div className=" block ">
 
-            <div className="bg-[#A594F9] lg:w-[450px] md:w-[400px] sm:w-[350px] w-[310px] flex-col h-auto flex py-8 gap-2  items-center rounded-xl">
+            <div className="bg-gray-400 lg:w-[450px] md:w-[400px] sm:w-[350px] w-[310px] flex-col h-auto flex py-8 gap-2  items-center rounded-xl">
                 <img src={src} alt="" className="rounded-[50%] w-24" />
 
                 <h4 className="text-xl underline">{name}</h4>

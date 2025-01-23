@@ -23,8 +23,7 @@ export default function Services() {
         <div>
       
   
-  {/* <p className="my-12"><Slider/></p> */}
-  
+
       </div>
   
       <div className="md:px-48 px-12 mt-12 md:mb-2 mb-8">

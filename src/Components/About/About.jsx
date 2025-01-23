@@ -1,5 +1,6 @@
 import styles from "./About.module.css"
 import ContactUs from "../Contact/ContactUs"
+import AboutCard from "./AboutCard"
 
 // import SectionA from "../Home/SectionA"
 
@@ -11,7 +12,7 @@ export default function About() {
 
     <div className="bg-[url(public/hero-bg.png)] h-full md:pt-48 pt-28">
     <p className="text-blue-500 lowercase  w-[50%] text-xl text-center m-auto md:mb-4">We are</p>
-      <h1 className={`md:text-6xl text-5xl text-black font-semibold md:w-[50%] px-4 text-center m-auto ${styles.heading}`}>Focused on performance, digital solutions, and quality engineering.</h1>
+      <h1 className={`md:text-6xl text-5xl text-black font-semibold md:w-[60%] px-4 text-center m-auto ${styles.heading}`}>Focused on performance, digital solutions, and quality engineering.</h1>
 
       <p className={`text-black md:w-[50%] ${styles.pTag} md:px-2 px-4 text-xl text-center m-auto mt-4`}>Experience the transformative power of innovation and seamless solutions with dynamics. Our journey does not end with the delivery of a solution.</p>
 
@@ -43,41 +44,18 @@ export default function About() {
 <div className="mt-8 flex flex-wrap gap-9">
 
 
-<div className="bg-gray-300 w-80 flex flex-col rounded-lg  justify-center items-center gap-4 py-12 px-4">
-  <img src="./AboutIcon/rosette-discount-check.png" alt="Quality Deliverables" className="w-12"/>
-  <h3 className="text-2xl font-semibold ">Quality Deliverables</h3>
-  <p className="px-4 text-center">We ensure top-tier deliverables that meet your business needs.</p>
-</div>
+<AboutCard title={"Quality Deliverables"} src={"./AboutIcon/rosette-discount-check.png"} description={"We ensure top-tier deliverables that meet your business needs."}/>
 
-<div className="bg-gray-300 w-80 flex flex-col rounded-lg  justify-center items-center gap-4 py-12 px-4">
-  <img src="./AboutIcon/automation.svg" alt="Quality Deliverables" className="w-12"/>
-  <h3 className="text-2xl font-semibold ">Agile Process</h3>
-  <p className="px-4 text-center">We follow agile methodologies for fast and effective outcomes.</p>
-</div>
+<AboutCard title={"Agile Process"} src={"./AboutIcon/automation.svg"} description={"We follow agile methodologies for fast and effective outcomes."}/>
 
-<div className="bg-gray-300 w-80 flex flex-col rounded-lg  justify-center items-center gap-4 py-12 px-4">
-  <img src="./AboutIcon/clock-hour-11.svg" alt="Quality Deliverables" className="w-12"/>
-  <h3 className="text-2xl font-semibold ">Timely Releases</h3>
-  <p className="px-4 text-center">We guarantee timely product releases to meet your market demands.</p>
-</div>
+<AboutCard title={"Timely Releases"} src={"./AboutIcon/clock-hour-11.svg"} description={"We guarantee timely product releases to meet your market demands."}/>
 
-<div className="bg-gray-300 w-80 flex flex-col rounded-lg  justify-center items-center gap-4 py-12 px-4">
-  <img src="./AboutIcon/brand-wechat.svg" alt="Quality Deliverables" className="w-12"/>
-  <h3 className="text-2xl font-semibold ">Tech Support</h3>
-  <p className="px-4 text-center">Q24/7 support to ensure smooth operation of your systems.</p>
-</div>
+<AboutCard title={"Tech Support"} src={"./AboutIcon/brand-wechat.svg"} description={"Q24/7 support to ensure smooth operation of your systems."}/>
 
-<div className="bg-gray-300 w-80 flex flex-col rounded-lg  justify-center items-center gap-4 py-12 px-4">
-  <img src="./AboutIcon/device-laptop.svg" alt="Quality Deliverables" className="w-12"/>
-  <h3 className="text-2xl font-semibold ">Technology Partner</h3>
-  <p className="px-4 text-center">We become your trusted partner for all technological innovations.</p>
-</div>
+<AboutCard title={"Technology Partners"} src={"./AboutIcon/device-laptop.svg"} description={"We become your trusted partner for all technological innovations."}/>
 
-<div className="bg-gray-300 w-80 flex flex-col rounded-lg  justify-center items-center gap-4 py-12 px-4">
-  <img src="./AboutIcon/coin-rupee.svg" alt="Quality Deliverables" className="w-12"/>
-  <h3 className="text-2xl font-semibold ">Cost Savings</h3>
-  <p className="px-4 text-center">We ensure cost savings for your business operations.</p>
-</div>
+<AboutCard title={"Cost Savings"} src={"./AboutIcon/coin-rupee.svg"} description={"We ensure cost savings for your business operations."}/>
+
 
 </div>
 

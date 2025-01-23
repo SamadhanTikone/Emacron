@@ -22,13 +22,13 @@ const ContactUs = () => {
   };
 
   return (
-    <div id="contact">
+    <div id="contact ">
     <div className="contact-container " >
       <div className="contact-form-container bg-gray-300">
-        <h2 className="text-black">
-       Connect with <span className="text-blue-700"> Us</span>
+        <h2 className="text-black contact">
+       Contact with <span className="text-blue-700"> Us</span>
         </h2>
-        <p className="text-xl font-semibold my-8 -mt-4 text-black"> Reach out today
+        <p className={`text-xl  mb-4 text-black`}> Reach out today
         and unlock your future possibilities!</p>
         <form onSubmit={handleSubmit} >
           <div className="form-group-row">

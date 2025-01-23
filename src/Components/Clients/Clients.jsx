@@ -13,7 +13,7 @@ export default function Projects() {
     <div className={`${styles.bg} h-full md:pt-48 pt-28 text-black ${styles.main}`}>
       
     <p className="text-blue-500 lowercase w-[50%] text-xl text-center m-auto mb-4">our clients</p>
-      <h1 className="md:text-6xl text-4xl text-black font-semibold md:w-[50%] px-8 text-center m-auto">Transforming visions into reality with innovation, and <span className="text-blue-500">excellence</span>.</h1>
+      <h1 className="md:text-6xl text-4xl text-black font-semibold md:w-[60%] px-8 text-center m-auto">Transforming visions into reality with innovation, and <span className="text-blue-500">excellence</span>.</h1>
       <p className={`text-black md:w-[50%] px-4 ${styles.pTag} text-xl text-center m-auto mt-4`}>We transform ambitious ideas into impactful solutions with innovation, expertise, and excellence, delivering results that exceed expectations and inspire trust.</p>
 
       <div>
@@ -31,18 +31,28 @@ export default function Projects() {
 <div className="flex flex-col justify-center  items-center py-8">
 
 <div className="py-8 flex gap-4 lg:flex-row flex-col md:px-24 sm:px-0 lg:px-1">
-  <div className="w-[380px] h-[350px] my-4 flex justify-center items-center bg-gray-400 rounded-lg">
+  <div className="w-[400px] h-auto rounded-lg">
   
-    <p className=" text-2xl uppercase font-semibold">project-01</p>
+  <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="object-contain w-[100%] rounded-lg"/>
+  <p className={`${styles.pTag} m-auto text-center py-2 text-xl font-semibold`}>Project-01</p>
+
+    {/* <p className=" text-2xl uppercase font-semibold">project-01</p> */}
   </div>
-  <div className="w-[380px] h-[350px] my-4 flex justify-center items-center bg-gray-400 rounded-lg">
+  <div className=" rounded-lg w-[400px] h-auto ">
   
-    <p className=" text-2xl uppercase font-semibold">project-02</p>
+  <img src="https://images.pexels.com/photos/4976712/pexels-photo-4976712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="object-contain w-[100%] rounded-lg"/>
+  <p className={`${styles.pTag} m-auto text-center py-2 text-xl font-semibold`}>Project-02</p>
+
+    {/* <p className=" text-2xl uppercase font-semibold">project-01</p> */}
   </div>
-  <div className="w-[380px] h-[350px] my-4 flex justify-center items-center bg-gray-400 rounded-lg">
+  <div className=" rounded-lg w-[400px] h-auto">
   
-    <p className=" text-2xl uppercase font-semibold">project-03</p>
+  <img src="https://images.pexels.com/photos/4955393/pexels-photo-4955393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="object-contain w-[100%] rounded-lg"/>
+  <p className={`${styles.pTag} m-auto text-center py-2 text-xl font-semibold`}>Project-03</p>
+
+    {/* <p className=" text-2xl uppercase font-semibold">project-01</p> */}
   </div>
+ 
 
   
     </div>

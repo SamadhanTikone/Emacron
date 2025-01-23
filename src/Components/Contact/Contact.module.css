@@ -31,3 +31,9 @@
         height: 300px;
     }
 } 
+
+.pTag {
+    font-family: "Play", serif;
+  font-weight: 500;
+  font-style: normal;
+} 

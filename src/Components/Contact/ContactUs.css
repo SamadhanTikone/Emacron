@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
 /* Full-screen container with gradient background */
 .contact-container {
   display: flex;
@@ -5,15 +10,19 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  /* background: linear-gradient(135deg, #969696 0%, #43404000 100%); */
-  /* padding: 40px; */
   padding: 20px 0px;
   box-sizing: border-box;
 }
 
+.contact {
+  font-family: "Play", serif;
+font-weight: 500;
+font-style: normal;
+} 
+
 /* Form container with rounded corners, shadow, and width control */
 .contact-form-container {
-  /* background: #f3f2f2; */
+
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 40px;
@@ -21,10 +30,10 @@
   max-width: 800px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  /* color: #717171; */
+
 }
 
-/* Form title with better typography */
+
 .contact-form-container h2 {
   font-size: 28px;
   font-weight: 600;
