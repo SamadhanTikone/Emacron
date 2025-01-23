@@ -6,7 +6,8 @@
   height: 100%;
   width: 100%;
   /* background: linear-gradient(135deg, #969696 0%, #43404000 100%); */
-  padding: 40px;
+  /* padding: 40px; */
+  padding: 20px 0px;
   box-sizing: border-box;
 }
 

@@ -9,23 +9,23 @@ export default function About() {
      
 
 
-    <div className="bg-[url(public/hero-bg.png)] h-full pt-48">
-    <p className="text-blue-500 lowercase  w-[50%] text-xl text-center m-auto mb-4">We are</p>
-      <h1 className={`text-6xl text-black font-semibold w-[50%] text-center m-auto ${styles.heading}`}>Focused on performance, digital solutions, and quality engineering.</h1>
+    <div className="bg-[url(public/hero-bg.png)] h-full md:pt-48 pt-28">
+    <p className="text-blue-500 lowercase  w-[50%] text-xl text-center m-auto md:mb-4">We are</p>
+      <h1 className={`md:text-6xl text-5xl text-black font-semibold md:w-[50%] px-4 text-center m-auto ${styles.heading}`}>Focused on performance, digital solutions, and quality engineering.</h1>
 
-      <p className={`text-black w-[50%] ${styles.pTag} text-xl text-center m-auto mt-4`}>Experience the transformative power of innovation and seamless solutions with dynamics. Our journey does not end with the delivery of a solution.</p>
+      <p className={`text-black md:w-[50%] ${styles.pTag} md:px-2 px-4 text-xl text-center m-auto mt-4`}>Experience the transformative power of innovation and seamless solutions with dynamics. Our journey does not end with the delivery of a solution.</p>
 
 
       <div>
 
-<div className={` flex px-24 mx-24 gap-10 justify-evenly mt-12 ${styles.p}`}>
+<div className={` flex px-24 md:mx-24 mx-4 md:gap-10 gap-4 justify-center flex-wrap mt-12 ${styles.p} items-center`}>
 
-<p className="flex flex-col ml-2 text-lg p-8 text-black font-semibold"><span className="md:text-4xl text-3xl font-bold text-blue-500">90+</span>Happy Clients</p>
-<p className="flex flex-col ml-2 text-lg p-8 text-black font-semibold"><span className="md:text-4xl text-3xl font-bold text-blue-500">50+</span>Projects</p>
+<p className="flex flex-col md:ml-2 text-lg p-8 text-black font-semibold"><span className="md:text-4xl text-3xl font-bold text-blue-500">90+</span>Our Happy Clients </p>
+<p className="flex flex-col md:ml-2 text-lg p-8 text-black font-semibold"><span className="md:text-4xl text-3xl font-bold text-blue-500">50+</span>Total Projects Done</p>
 
-<p className="flex flex-col ml-2 text-lg p-8 text-black font-semibold"><span className="md:text-4xl text-3xl font-bold text-blue-500">100%</span>Client Satisfaction</p>
+<p className="flex flex-col md:ml-2 text-lg p-8 text-black font-semibold"><span className="md:text-4xl text-3xl font-bold text-blue-500">100%</span>Client Satisfaction</p>
 
-<p className="flex flex-col ml-2 text-lg p-8 text-black font-semibold"><span className="md:text-4xl text-3xl font-bold text-blue-500">10+</span>Team Members</p>
+<p className="flex flex-col md:ml-2 text-lg p-8 text-black font-semibold"><span className="md:text-4xl text-3xl font-bold text-blue-500">10+</span>Team Members</p>
 
 
 
@@ -35,10 +35,10 @@ export default function About() {
     </div>
     </div>
 
-<div className={`${styles.sectionA} bg-white text-black px-60 `}>
+<div className={`${styles.sectionA} bg-white text-black md:px-60 px-12`}>
 <p className={`text-blue-500 ${styles.ourCompany}`} >OUR COMPANY </p>
 
-<h2 className={`${styles.heading} text-5xl`}>Why our company ?</h2>
+<h2 className={`${styles.heading} md:text-5xl text-4xl`}>Why our company ?</h2>
 
 <div className="mt-8 flex flex-wrap gap-9">
 
@@ -86,20 +86,20 @@ export default function About() {
 <div className={` ${styles.sectionB} bg-white text-black  pt-12`}>
 
 
-  <h3 className="text-5xl font-semibold px-60">Why Choose E<span className="text-blue-500">M</span>ACRON?</h3>
+  <h3 className="md:text-5xl text-4xl font-semibold md:px-60 mb-4 px-4">Why  E<span className="text-blue-500">M</span>ACRON?</h3>
 
-<div className="flex md:flex-row flex-col justify-between px-60 items-center py-12 bg-gray-300">
+<div className="flex md:flex-row flex-col justify-between md:px-60 items-center py-12 bg-gray-300">
 
-  <img src="./AboutIcon/Questions-pana (1).svg" alt="" className="w-96"/>
+  <img src="./AboutIcon/Questions-pana (1).svg" alt="" className="md:w-96 w-60"/>
 
-  <p className="text-[18px] leading-[40px] w-[50%] ">At Emacron, we deliver top-quality web apps, mobile apps, and software tailored to your needs. With a focus on innovation, reliability, and customer satisfaction, our skilled team ensures every project exceeds expectations. Partner with us for impactful solutions that drive success.</p>
+  <p className="text-[18px] leading-[40px] md:w-[50%] px-8">At Emacron, we deliver top-quality web apps, mobile apps, and software tailored to your needs. With a focus on innovation, reliability, and customer satisfaction, our skilled team ensures every project exceeds expectations. Partner with us for impactful solutions that drive success.</p>
 
 </div>
 
-<div className={` ${styles.sectionC} m-auto px-60 bg-white text-black  pt-12`}>
+<div className={` ${styles.sectionC} m-auto md:px-60 bg-white text-black px-8 pt-12`}>
 
 <p className={`text-blue-500 ${styles.ourCompany}`} >contact </p>
-<h3 className="text-5xl font-semibold">Connect with us</h3>
+<h3 className="md:text-5xl text-4xl font-semibold">Connect with us</h3>
   <p className="text-xl font-semibold mt-2">Contact us today to begin your journey!</p>
 
 <ContactUs/>
