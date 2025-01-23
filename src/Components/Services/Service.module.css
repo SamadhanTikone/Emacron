@@ -33,8 +33,17 @@
     font-style: normal;
 }
 
-.des {
+.des,.slider div li {
     font-family: "Play", serif;
   font-weight: 500;
   font-style: normal;
 } 
+
+.list li{
+  font-family: "Play", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  
+}
+

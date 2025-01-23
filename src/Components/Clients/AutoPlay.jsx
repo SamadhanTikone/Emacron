@@ -2,7 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-function AutoPlay() {
+function AutoPlay(  ) {
   const settings = {
     // dots: true,
     infinite: true,
